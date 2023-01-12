@@ -19,10 +19,11 @@ class GroceryItem  {
 
     
 }
-GroceryItem.prototype.toString = function groceryItemToString() {
-    return `${this.quantity} ${this.name}(s) , $${this.price} each`
-}
 
+/**
+ * Adds new items to a list. User can save their list of grocery items to a text file. 
+ * They can then keep and continue updating their list.
+ */
 function addItems() {
     run = true
     do {    
