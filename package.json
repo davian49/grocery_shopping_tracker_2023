@@ -1,0 +1,15 @@
+{
+  "name": "grocery-shopping-tracker",
+  "version": "1.0.0",
+  "description": "This is a simple console-based program that helps users keep track of their grocery shopping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davian C",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
